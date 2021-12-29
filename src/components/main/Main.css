@@ -1,0 +1,10 @@
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #AE62F8;
+  background-image: linear-gradient(326deg, #a340d1 0%, #AE62F8 74%);
+    
+}

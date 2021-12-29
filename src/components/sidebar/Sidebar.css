@@ -1,0 +1,20 @@
+
+.avatar{
+    margin-top: 20px;
+    margin-left:10px;
+    
+}
+.sidebar{
+  
+   width: 90px;
+   overflow-y: visible;
+   height:fit-screen-size;
+   background-color: #AE62F8;
+   background-image: linear-gradient(326deg, #a340d1 0%, #AE62F8 74%);
+
+
+}
+
+.sidebar__extraWidth{
+    width: 450px !important;
+}

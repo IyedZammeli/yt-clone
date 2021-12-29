@@ -1,0 +1,11 @@
+.playlist{
+    display:flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    max-height: 90vh;
+    width: 100%;
+    overflow-x: hidden;
+    margin-left: 150px;
+   
+
+}

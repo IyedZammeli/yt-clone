@@ -1,0 +1,126 @@
+#landing-page {
+  background-image: url("https://cdn.animaapp.com/projects/61a29f60ee948d7b54cdd788/releases/61a2a00d28635064dc2025cf/img/ground-crack-1@1x.png");
+   width:100%;
+  height: 929px;
+ overflow-y: hidden;
+  background-size: cover;
+  filter:contrast(125%);
+  filter:saturation(200%);
+ 
+ }
+ .container {
+   display: flex;
+   flex-direction: row;
+   border: solid 2px #cc4bcc8f;
+  height:150px;
+ width:650px;
+  background-color: rgb(240, 182, 255);
+  opacity: 0.7;
+  margin-left: 880px;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding:40px;
+  margin-top: 375px;
+ 
+  
+ 
+  
+ }
+ 
+ .i2-1 {
+   height: 108px;
+   /*left: 1172px;
+   object-fit: cover;*/
+   top: 255px;
+   width: 22px;
+   cursor:pointer;
+ }
+ .i2-1:hover{
+ 
+   transform: translate(-0%, -00%);
+   animation: jump 1.2s ;
+  
+ }
+ 
+ .m-1 {
+   height: 100px;
+   /*left: 680px;
+   object-fit: cover;*/
+   
+   top: 260px;
+   width: 148px;
+   cursor:pointer;
+ }
+ @keyframes jump {
+   0% { transform: translate(-0%, -0%) scale(1.25, 0.75); }
+   50% { transform: translate(-0%, -100%) scale(1, 1); }
+   65% { transform: translate(-0%, -100%) rotate(15deg); }
+   70% { transform: translate(-0%, -100%) rotate(-15deg); }
+   100% { transform: translate(-0%, -0%) scale(1.25, 0.75); }
+ }
+ 
+ 
+ .o-1 {
+   height: 100px;
+   /*left: 835px;
+   object-fit: cover;*/
+ 
+   top: 260px;
+   width: 148px;
+   cursor:pointer;
+  
+ }
+ .f-1 {
+   height: 100px;
+   /*left: 990px;
+   object-fit: cover;*/
+  
+   top: 260px;
+   width: 120px;
+   cursor:pointer;
+   
+  
+ }
+ .f-1:hover{
+ 
+   transform: translate(-0%, -00%);
+   animation: jump 1.5s ;
+  
+ }
+ .i1-1:hover{
+ 
+  
+   transform: translate(-0%, -00%);
+   animation: jump 1.5s ;
+ 
+ }
+ .m-1:hover{
+ 
+   transform: translate(-0%, -00%);
+   animation: jump 1.5s ;
+  
+ }
+ .o-1:hover{
+ 
+  
+   transform: translate(-0%, -00%);
+   animation: jump 1.5s ;
+  
+ }
+ .i1-1 {
+   height: 108px;
+   /*left: 1122px;
+   object-fit: cover;*/
+  
+   top: 255px;
+   width: 22px;
+   cursor:pointer;
+  
+ }
+ .image-3{
+   width:500PX;
+   height: 540PX;
+   margin-left: 20PX ;
+   margin-top: -420PX;
+ }
+ 

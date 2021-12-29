@@ -1,0 +1,4 @@
+<img className="o-1" src={o1} />
+  <img className="f-1" src={f1} />
+  <img className="i1-1" src={i11} />
+    <img className="i2-1" src={i21} />
